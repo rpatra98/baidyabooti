@@ -1,0 +1,91 @@
+.footer{
+    margin-top: auto;
+}
+
+.featuredImageWrapper {
+    position: relative;
+    /* position: absolute; */
+    /* width: 100%; */
+    max-width: 1450px;
+    /* max-height: 400px; */
+    aspect-ratio: 70/30;
+    margin: 0 auto;
+    /* z-index: 1; */
+}
+
+.featuredImageWrapper1 {
+  position: relative;
+  /* position: absolute; */
+  /* width: 100%; */
+  max-width: 1450px;
+  /* max-height: 400px; */
+  aspect-ratio: 78/30;
+  margin: -28px auto 0;
+  /* z-index: 1; */
+}
+
+/* components/BlackAndWhiteImage.module.css */
+.image {
+    position: relative;
+    /* display: block; */
+    /* border: 2px solid black; */
+    /* max-width: 500px; */
+    margin: auto;
+    width: 100%;
+    height: auto;
+    transform: scale(1);
+    /* aspect-ratio: 100/20; */
+    filter: grayscale(100%);
+    transition: filter 0.3s ease-in-out;
+  }
+  
+  .image:hover {
+    filter: grayscale(0%);
+  }
+  
+.area4Container {
+    display: block;
+    margin: 2rem auto;
+}
+
+@media (min-width: 1000px) {
+    .area4Container {
+        display: flex;
+        max-width: 1450px;
+    }
+}
+
+.area4ContainerChild {
+    margin: 1rem auto;
+    display: block;
+}
+
+@media (min-width: 1000px) {
+    .area4ContainerChild {
+        margin: 1rem auto;
+    }
+}
+
+@media (min-width: 550px) {
+    .area4ContainerChild {
+        margin: 1rem auto;
+        position: relative;
+        display: flex;
+    }
+}
+
+/* @media (min-width: 300px) {
+    .area4ContainerChild {
+        position: relative;
+        display: flex;
+        aspect-ratio: 70/30;
+    }
+} */
+
+.leftAlign {
+  text-align: left;
+}
+
+.footerComp{
+  margin-left: 6ch;
+}

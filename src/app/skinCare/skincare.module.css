@@ -1,0 +1,15 @@
+.parent{
+    max-width: 1450px;
+    display: flex;
+    justify-content: center;
+    margin: auto;
+    margin-top: 0px;
+}
+
+.child1{
+    width: 23vw;
+}
+
+.child2{
+    width: 77vw;
+}

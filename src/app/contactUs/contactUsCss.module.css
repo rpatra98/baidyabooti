@@ -1,0 +1,22 @@
+.container {
+    max-width: 900px;
+    margin: 0 auto;
+}
+
+.featuredImageWrapper {
+    position: relative;
+    width: 100%;
+    max-width: 1500px;
+    /* max-height: 400px; */
+    aspect-ratio: 70/20;
+    margin: 0rem auto;
+}
+
+.formNMap {
+    position: relative;
+    width: 100%;
+    max-width: 1500px;
+    /* max-height: 400px; */
+    /* aspect-ratio: 70/20; */
+    margin: 0rem auto;
+}

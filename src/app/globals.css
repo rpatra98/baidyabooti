@@ -1,0 +1,15 @@
+body{
+  background-color: whitesmoke;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  margin: 0;
+}
+
+footer{
+  margin-top: auto;
+}
+
+.allura{
+  font-family: var(--font-allura);
+}

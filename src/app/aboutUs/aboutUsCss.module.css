@@ -1,0 +1,47 @@
+.body {
+    background-color: whitesmoke;
+}
+
+.featuredImageWrapper {
+    position: relative;
+    /* position: absolute; */
+    width: 100%;
+    /* max-width: 1500px; */
+    /* max-height: 400px; */
+    aspect-ratio: 70/45;
+    /* margin: 0 auto; */
+    /* z-index: 1; */
+}
+
+/* .background {
+    background-image: url('../../../assets/aboutBaidyabootiTextLess.jpg');
+    width: 1300;
+    height: 350;
+    position: relative;
+    aspect-ratio: 70/45;
+    margin: 0rem auto;
+} */
+
+.allura {
+    font-family: var(--font-allura);
+}
+
+.ense {
+    font-family: var(--font-ense);
+}
+
+.light {
+    font-weight: 300;
+}
+
+.normal {
+    font-weight: 400;
+}
+
+.bold {
+    font-weight: 700;
+}
+
+.extra-bold {
+    font-weight: 900;
+}
